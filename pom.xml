@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.formation.web</groupId>
@@ -70,17 +72,25 @@
 	</dependencies>
 
 	<repositories>
-	    <repository>
-	      <id>test-my-repo1</id>
-	      <name>my custom repo1</name>
-	      <url>http://localhost:8081/repository/test-my-repo1/</url>
-	    </repository>	
+		<repository>
+			<id>test-my-repo1</id>
+			<name>my custom repo1</name>
+			<url>http://localhost:8081/repository/test-my-repo1/</url>
+		</repository>
 		<repository>
 			<id>springsource-milestones</id>
 			<name>SpringSource Milestones Proxy</name>
 			<url>https://oss.sonatype.org/content/repositories/springsource-milestones</url>
-		</repository>		
+		</repository>
 	</repositories>
+
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>test-my-repo1</id>
+			<url>http://localhost:8081/repository/test-my-repo1/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<finalName>mvc</finalName>
@@ -94,9 +104,42 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.8.1</version>
+				<executions>
+					<execution>
+						<id>default-deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.5.1</version>
+				<executions>
+					<execution>
+						<id>default-deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<serverId>test-my-repo1</serverId>
+					<nexusUrl>http://localhost:8081/repository/test-my-repo1/</nexusUrl>
+					<skipStaging>true</skipStaging>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
-	
-	
-	
+
 </project>
