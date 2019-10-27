@@ -86,10 +86,10 @@
 
 
 	<distributionManagement>
-		<snapshotRepository>
+		<repository>
 			<id>test-my-repo1</id>
 			<url>http://localhost:8081/repository/test-my-repo1/</url>
-		</snapshotRepository>
+		</repository>
 	</distributionManagement>
 
 	<build>
