@@ -7,7 +7,7 @@
 <!-- ntaya mahboul a 3chiri -->
 	<groupId>com.formation.web</groupId>
 	<artifactId>mvc</artifactId>
-	<version>0.0.1-RELEASE</version>
+	<version>0.0.2-RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>mvc</name>
