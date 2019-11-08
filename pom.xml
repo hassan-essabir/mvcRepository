@@ -8,7 +8,7 @@
 	<!-- first update from  (2.2) -->
 	<!-- first update from  (2.1) -->
 	<!-- first update from  (3) -->
-	<!-- git log test pom.xml -->
+	<!-- git log test pom.xml test rebase--> 
 	
 	<groupId>com.formation.web</groupId>
 	<artifactId>mvc</artifactId>
