@@ -143,7 +143,7 @@
 				</executions>
 			</plugin>
 
-			<plugin>
+<!-- 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
 				<version>1.5.1</version>
@@ -161,7 +161,7 @@
 					<nexusUrl>http://localhost:8081/repository/test-my-repo1/</nexusUrl>
 					<skipStaging>true</skipStaging>
 				</configuration>
-			</plugin>
+			</plugin> -->
 
 
 			
