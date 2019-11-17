@@ -103,7 +103,7 @@
 	   <connection>scm:git:https://github.com/hassan-essabir/mvcRepository.git</connection>
 	   <url>http://github.com/hassan-essabir/mvcRepository</url>
 	   <developerConnection>scm:git:https://github.com/hassan-essabir/mvcRepository.git</developerConnection>
-	  <tag>mvc-0.0.16</tag>
+<!-- 	  <tag>mvc-0.0.16</tag> -->
   	</scm>
 
 <!-- 	<build>
