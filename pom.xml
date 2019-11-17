@@ -4,7 +4,7 @@
 	<groupId>com.formation.web</groupId>
 	<artifactId>mvc</artifactId>
 	<version>0.0.10-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>mvc</name>
 	<url>http://maven.apache.org</url>
