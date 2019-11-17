@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.formation.web</groupId>
 	<artifactId>mvc</artifactId>
-	<version>0.0.9-RELEASE</version>
+	<version>0.0.9-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>mvc</name>
