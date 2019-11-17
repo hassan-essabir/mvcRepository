@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.formation.web</groupId>
 	<artifactId>mvc</artifactId>
@@ -103,9 +104,9 @@
 	   <url>http://github.com/hassan-essabir/mvcRepository</url>
 	   <developerConnection>scm:git:https://github.com/hassan-essabir/mvcRepository.git</developerConnection>
 	  <tag>HEAD</tag>
-  </scm>
+  	</scm>
 
-	<build>
+<!-- 	<build>
 		<finalName>mvc</finalName>
 		<plugins>
 			<plugin>
@@ -121,7 +122,7 @@
 			<plugin>
 			   <groupId>org.apache.maven.plugins</groupId>
 			   <artifactId>maven-release-plugin</artifactId>
-			   <version>2.5.3</version><!--$NO-MVN-MAN-VER$-->
+			   <version>2.5.3</version>$NO-MVN-MAN-VER$
 			   <configuration>
 			      <tagNameFormat>v@{project.version}</tagNameFormat>
 			      <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -143,7 +144,7 @@
 				</executions>
 			</plugin>
 
-<!-- 			<plugin>
+			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
 				<version>1.5.1</version>
@@ -161,12 +162,12 @@
 					<nexusUrl>http://localhost:8081/repository/test-my-repo1/</nexusUrl>
 					<skipStaging>true</skipStaging>
 				</configuration>
-			</plugin> -->
+			</plugin>
 
 
 			
 		</plugins>
-	</build>
+	</build> -->
 
 	<profiles>
 	   <profile>
