@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.formation.web</groupId>
 	<artifactId>mvc</artifactId>
-	<version>0.0.20-SNAPSHOT</version>
+	<version>0.0.30-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>mvc</name>
@@ -104,7 +104,7 @@
 	   <url>http://github.com/hassan-essabir/mvcRepository</url>
 	   <developerConnection>scm:git:https://github.com/hassan-essabir/mvcRepository.git</developerConnection>
 <!-- 	  <tag>mvc-0.0.16</tag> -->
-  	  <tag>HEAD</tag>
+  	  <tag>mvc-0.0.20</tag>
   </scm>
 
 <!-- 	<build>
