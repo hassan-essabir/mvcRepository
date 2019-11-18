@@ -7,7 +7,7 @@
 	<version>0.0.31-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>mvc</name>
+	<name>mvc-name</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
