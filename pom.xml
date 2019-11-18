@@ -100,9 +100,9 @@
 	</distributionManagement>
 
 	<scm>
-	   <connection>scm:git:https://github.com/hassan-essabir/mvcRepository.git</connection>
+	   <connection>scm:git:git@github.com:hassan-essabir/mvcRepository.git</connection>
 	   <url>http://github.com/hassan-essabir/mvcRepository</url>
-	   <developerConnection>scm:git:https://github.com/hassan-essabir/mvcRepository.git</developerConnection>
+	   <developerConnection>scm:git:git@github.com:hassan-essabir/mvcRepository.git</developerConnection>
 <!-- 	  <tag>mvc-0.0.16</tag> -->
   	  <tag>mvc-0.0.30</tag>
   </scm>
