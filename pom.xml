@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.formation.web</groupId>
 	<artifactId>mvc</artifactId>
-	<version>0.0.30</version>
+	<version>0.0.31-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>mvc</name>
