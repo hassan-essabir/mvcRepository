@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.formation.web</groupId>
 	<artifactId>mvc</artifactId>
-	<version>0.0.31-SNAPSHOT</version>
+	<version>0.0.33-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>mvc-name</name>
+	<name>mvcSSH</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -100,11 +100,11 @@
 	</distributionManagement>
 
 	<scm>
-	   <connection>scm:git:https://github.com/hassan-essabir/mvcRepository.git</connection>
+	   <connection>scm:git:git@github.com:hassan-essabir/mvcRepository.git</connection>
 	   <url>http://github.com/hassan-essabir/mvcRepository</url>
-	   <developerConnection>scm:git:https://github.com/hassan-essabir/mvcRepository.git</developerConnection>
+	   <developerConnection>scm:git:git@github.com:hassan-essabir/mvcRepository.git</developerConnection>
 <!-- 	  <tag>mvc-0.0.16</tag> -->
-  	  <tag>mvc-0.0.30</tag>
+  	  <tag>mvc-0.0.33</tag>
   </scm>
 
 <!-- 	<build>
