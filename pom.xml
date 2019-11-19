@@ -104,7 +104,7 @@
 	   <url>http://github.com/hassan-essabir/mvcRepository</url>
 	   <developerConnection>scm:git:git@github.com:hassan-essabir/mvcRepository.git</developerConnection>
 <!-- 	  <tag>mvc-0.0.16</tag> -->
-  	  <tag>mvc-0.0.33</tag>
+  	  <tag>mvc-0.0.34</tag>
   </scm>
 
 <!-- 	<build>
